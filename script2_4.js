@@ -1,9 +1,9 @@
 d = parseInt(prompt("Please, enter the length of your hole"));
 e = parseInt(prompt("Please, enter the width of your hole"));
 
-a = 10;
-b = 6;
-c = 3;
+a = 20;
+b = 5;
+c = 2;
 
 if ((a <= e && c <= d) || (b <= d && a <= e) || (c <= e && a <= d)
     || (c <= d && b <= e) || (b <= d && c <= e) || (a <= d && b <= e)) {
